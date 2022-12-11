@@ -6,9 +6,9 @@ export default function Navbar() {
   const navigation = [
     "Product",
     "Features",
-    "Pricing",
+    "About us",
     "Company",
-    "Blog",
+    "Contact",
   ];
 
   return (
@@ -21,7 +21,7 @@ export default function Navbar() {
               <div className="flex flex-wrap items-center justify-between w-full lg:w-auto">
                 <Link href="/">
                   <a className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
-                    <span>
+                    {/* <span>
                       <img
                         src="/img/logo.svg"
                         alt="N"
@@ -29,8 +29,8 @@ export default function Navbar() {
                         height="32"
                         className="w-8"
                       />
-                    </span>
-                    <span>Nextly</span>
+                    </span> */}
+                    <span>PD Infinity</span>
                   </a>
                 </Link>
 
@@ -100,7 +100,7 @@ export default function Navbar() {
             </a>
           </Link>
 
-          <ThemeChanger />
+          {/* <ThemeChanger /> */}
         </div>
       </nav>
     </div>
